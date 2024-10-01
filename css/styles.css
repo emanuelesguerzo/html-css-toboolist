@@ -11,6 +11,10 @@ body {
     background-color: rgb(231, 231, 231);
 }
 
+hr {
+    border-color: white ;
+}
+
 /* Header */
 
 header {
@@ -64,6 +68,94 @@ h1 {
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(212, 212, 212);
 }
+
+/* To-Do-List */
+
+.todolist {
+    margin: 20px 50px;
+}
+
+h2 {
+    display: inline;
+    position: relative;
+}
+
+.caret {
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+/* Tasks */
+
+.tasks {
+    margin-bottom: 15px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.taskgroup {
+    margin-bottom: 50px;
+}
+
+
+.check, 
+.cross {
+    font-size: 8px;
+    padding: 4px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.check {
+    border: 1px solid green;
+    color: green;
+}
+
+.cross {
+    border: 1px solid red;
+    color: red;
+}
+
+
+
+/* Tags */
+
+.tag {
+    margin-left: 10px;
+
+}
+
+.editorial {
+    border: 1px solid rgb(71, 173, 241);
+}
+
+.q1goals {
+    border: 1px solid ;
+}
+
+.recruiting {
+    border: 1px solid ;
+}
+
+.mobile {
+    border: 1px solid ;
+}
+
+.website {
+    border: 1px solid ;
+}
+
+.sales {
+    border: 1px solid ;
+}
+
+
+
+
+
+
+
+
 
 
 
