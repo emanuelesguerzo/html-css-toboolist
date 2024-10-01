@@ -70,7 +70,7 @@ h1 {
 /* To-Do-List */
 
 .todolist {
-    margin: 40px 50px;
+    margin: 40px 55px;
     padding-bottom: 30px;
 }
 
@@ -99,7 +99,7 @@ h2 {
 .check, 
 .cross {
     font-size: 8px;
-    padding: 5px;
+    padding: 4px;
     border-radius: 50%;
     margin-right: 10px;
     font-weight: 800;
