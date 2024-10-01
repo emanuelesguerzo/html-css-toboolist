@@ -9,9 +9,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <!-- Google Fonts -->
 
     <title>Toboolist</title>
@@ -19,104 +17,124 @@
 
 <body>
 
+    <!-- Header -->
     <header>
 
-        <img src="./img/logo copia.png" alt="Logo Toboolist">
+        <img src="./img/Logo.png" alt="Logo Toboolist">
         <h1>Toboolist</h1>
 
     </header>
+    <!-- /Header -->
 
-    <div class="container">
+    <!-- Main -->
+    <main class="container">
 
-        <main>
+        <!-- Button Section -->
+        <div>
 
-            <section>
+            <button class="active">Add Task</button>
+            <button class="fade">Add Section</button>
 
-                <button class="active">Add Task</button>
-                <button class="fade">Add Section</button>
+        </div>
+        <!-- /Button Section -->
 
-            </section>
+        <hr>
 
-            <hr>
+        <!-- To Do List -->
+        <section class="todolist">
 
-            <section class="todolist">
+            <!-- Task Group 1 -->
+            <div class="taskgroup">
 
-                <div class="taskgroup">
+                <!-- Task Group Title -->
+                <div class="tasktitle">
 
-                    <div class="tasktitle">
-                        <span class="caret">&#x25BE;</span>
-                        <h2>New Task</h2>
-                    </div>
-
-                    <div class="tasks">
-                        <span class="check">&check;</span>Quarterly Newsletter <span class="tag editorial">Editorial</span>
-                    </div>
+                    <span class="caret">&#x25BE;</span>
+                    <h2>New Task</h2>
 
                 </div>
+                <!-- /Task Group Title -->
 
-                <div class="taskgroup">
+                <!-- Tasks -->
+                <div class="tasks">
+                    <span class="check">&check;</span>Quarterly Newsletter <span class="tag editorial">Editorial</span>
+                </div>
+                <!-- /Tasks -->
 
-                    <div class="tasktitle">
-                        <span class="caret">&#x25BE;</span>
-                        <h2>Today</h2>
-                    </div>
+            </div>
+            <!-- Task Group 1 -->
 
-                    <div class="tasks">
-                        <span class="check">&check;</span>Recruiting blog post <span class="tag editorial">Editorial</span>
-                    </div>
-                    <div class="tasks">
-                        <span class="check">&check;</span>Mobile app launch <span class="tag q1goals">Q1 Goals</span>
-                    </div>
-                    <div class="tasks">
-                        <span class="cross">&#10006;</span>Interview John H. <span class="tag recruiting">Recruiting</span>
-                    </div>
-                    <div class="tasks">
-                        <span class="check">&check;</span>Summit update to mobile storefronts <span class="tag mobile">Mobile</span>
-                    </div>
-                    
+            <!-- Task Group 2 -->
+            <div class="taskgroup">
+
+                <!-- Task Group Title -->
+                <div class="tasktitle">
+
+                    <span class="caret">&#x25BE;</span>
+                    <h2>Today</h2>
+
+                </div>
+                <!-- /Task Group Title -->
+
+                <!-- Tasks -->
+                <div class="tasks">
+                    <span class="check">&check;</span>Recruiting blog post <span class="tag editorial">Editorial</span>
                 </div>
 
-                <div class="taskgroup">
-
-                    <div class="tasktitle">
-                        <span class="caret">&#x25BE;</span>
-                        <h2>Upcoming</h2>
-                    </div>
-
-                    <div class="tasks">
-                        <span class="cross">&#10006;</span>Schedule meeting with Alex
-                    </div>
-                    <div class="tasks">
-                        <span class="check">&check;</span>Homepage refresh <span class="tag website">Website</span>
-                    </div>
-                    <div class="tasks">
-                        <span class="check">&check;</span>Onboard new Sales team members <span class="tag sales">Sales</span>
-                    </div>
-                    <div class="tasks">
-                        <span class="check">&check;</span>Review editorial calendar <span class="tag editorial">Editorial</span>
-                    </div>
-                    
+                <div class="tasks">
+                    <span class="check">&check;</span>Mobile app launch <span class="tag q1goals">Q1 Goals</span>
                 </div>
 
+                <div class="tasks">
+                    <span class="cross">&#10006;</span>Interview John H. <span class="tag recruiting">Recruiting</span>
+                </div>
 
-            </section>
+                <div class="tasks">
+                    <span class="check">&check;</span>Summit update to mobile storefronts <span class="tag mobile">Mobile</span>
+                </div>
+                <!-- /Tasks -->
 
-        </main>
+            </div>
+            <!-- /Task Group 2 -->
 
+            <!-- Task Group 3 -->
+            <div class="taskgroup">
 
+                <!-- Task Group Title -->
+                <div class="tasktitle">
 
+                    <span class="caret">&#x25BE;</span>
+                    <h2>Upcoming</h2>
 
+                </div>
+                <!-- Task Group Title -->
 
+                <!-- Tasks -->
+                <div class="tasks">
+                    <span class="cross">&#10006;</span>Schedule meeting with Alex
+                </div>
 
+                <div class="tasks">
+                    <span class="check">&check;</span>Homepage refresh <span class="tag website">Website</span>
+                </div>
 
+                <div class="tasks">
+                    <span class="check">&check;</span>Onboard new Sales team members <span class="tag sales">Sales</span>
+                </div>
 
+                <div class="tasks">
+                    <span class="check">&check;</span>Review editorial calendar <span class="tag editorial">Editorial</span>
+                </div>
+                <!-- /Tasks -->
 
+            </div>
+            <!-- /Task Group 3 -->
 
+        </section>
+        <!-- To Do List -->
 
-
-
-
-    </div>
+    </main>
+    <!-- /Main -->
 
 </body>
 
